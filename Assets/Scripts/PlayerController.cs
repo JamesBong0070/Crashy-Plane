@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rbPlayer;
-    Vector2 flapForce = new Vector2(0, 15f);
+    Vector2 flapForce = new Vector2(0, 16f);
     InputAction flapAction;
     bool flapRequested = false;
 

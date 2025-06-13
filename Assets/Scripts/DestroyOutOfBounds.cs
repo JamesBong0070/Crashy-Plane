@@ -3,7 +3,7 @@ using UnityEngine;
 public class DestroyOutOfBounds : MonoBehaviour
 {
     // Left boundary for the object
-    float leftBound = -20.0f;
+    float leftBound = -30f;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
