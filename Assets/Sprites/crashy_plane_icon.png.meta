@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crashy_plane_icon_0: -8230930185451155134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
