@@ -23,16 +23,14 @@ public class playerCrash : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collider.gameObject.CompareTag("Obstacle"))
-        {
-            // Stop the player movement
-            Destroy(gameObject);
-            hasCrashed = true;
+        // Stop the player movement
+        Destroy(gameObject);
+        hasCrashed = true;
 
-            // Optionally, you can add more logic here, like playing a sound or triggering an animation
-            Debug.Log("Player has crashed into an obstacle!");
-        }
+        // Optionally, you can add more logic here, like playing a sound or triggering an animation
+        Debug.Log("Player has crashed into an obstacle!");
+
     }
 }
