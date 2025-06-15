@@ -6,7 +6,7 @@ public class scrollingGrass : MonoBehaviour
     public float speed;
 
     [SerializeField]
-    private Renderer grassRenderer;
+    private Renderer grassRenderer; // Reference to the grass renderer
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,10 +17,11 @@ public class scrollingGrass : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player != null)
-        {
-            grassRenderer.material.mainTextureOffset += new Vector2(speed * Time.deltaTime, 0);
-            return;
-        }
+        // if (player != null)
+        // {
+        //     grassRenderer.material.mainTextureOffset += new Vector2(speed * Time.deltaTime, 0);
+        //     // Continuously scroll the grass texture
+        //     return;
+        // }
     }
 }
