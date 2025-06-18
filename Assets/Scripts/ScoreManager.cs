@@ -27,7 +27,7 @@ public class ScoreManager : MonoBehaviour
 
     void Update()
     {
-        ShowCrashUI(); // Call the ShowCrashUI method every frame
+        //ShowCrashUI(); // Call the ShowCrashUI method every frame
     }
 
     public void AddScore()
