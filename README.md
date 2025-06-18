@@ -2,6 +2,8 @@
 
 My Flappy Bird clone
 
+The goal is to avoid crashing your plane into buildings and see how far you can get.
+
 https://youtu.be/uFmrWUDnUog
 
 # Roadmap
@@ -9,9 +11,7 @@ https://youtu.be/uFmrWUDnUog
 
 -design an array for the building spawn manager
 
--replace placeholder assets with custom sprites
-
--create more building sprite variations
+-create new plane sprite
 
 ## Planned
 
