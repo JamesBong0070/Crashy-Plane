@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPosX: 30
-  spawnRangeY: 5
+  spawnRangeY: 8.8
   buildingPrefab: {fileID: 788314680547471187, guid: c9e44732655730753bc7c7ab1a59a179, type: 3}
   player: {fileID: 0}
 --- !u!4 &428372779
@@ -1648,7 +1648,7 @@ Transform:
   m_GameObject: {fileID: 869467531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
