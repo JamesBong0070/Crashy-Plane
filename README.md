@@ -7,6 +7,8 @@ https://youtu.be/uFmrWUDnUog
 # Roadmap
 ## Ongoing
 
+-design an array for the building spawn manager
+
 -replace placeholder assets with custom sprites
 
 -create more building sprite variations
