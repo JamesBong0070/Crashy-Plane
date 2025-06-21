@@ -629,8 +629,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPosX: 30
   spawnRangeY: 8.8
-  buildingPrefab: {fileID: 788314680547471187, guid: c9e44732655730753bc7c7ab1a59a179, type: 3}
-  player: {fileID: 0}
+  buildingPrefab:
+  - {fileID: 788314680547471187, guid: c9e44732655730753bc7c7ab1a59a179, type: 3}
+  - {fileID: 6732804545088973994, guid: 0ad039792129f7ce1acf671bacdd7904, type: 3}
+  - {fileID: 7287242364671864673, guid: 72aad2313771527e593ec37910306e4c, type: 3}
+  player: {fileID: 1800855106}
 --- !u!4 &428372779
 Transform:
   m_ObjectHideFlags: 0

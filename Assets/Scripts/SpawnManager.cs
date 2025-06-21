@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
     public float spawnRangeY = 30f;
     private float startDelay = 2f; // Delay 2 seconds before the first spawn
     private float spawnInterval = 2f; // Spawn every 1.5 seconds
-    public GameObject buildingPrefab;
+    public GameObject[] buildingPrefab;
     public GameObject player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,8 +26,9 @@ public class SpawnManager : MonoBehaviour
     {
         if (player != null)
         {
+            int randomIndex = Random.Range(0, buildingPrefab.Length);
             Vector2 spawnPos = new Vector2(spawnPosX, Random.Range( 0.41f, spawnRangeY));
-            Instantiate(buildingPrefab, spawnPos, Quaternion.identity);
+            Instantiate(buildingPrefab[randomIndex], spawnPos, Quaternion.identity);
         }
     }
 }
