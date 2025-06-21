@@ -9,9 +9,9 @@ https://youtu.be/uFmrWUDnUog
 # Roadmap
 ## Ongoing
 
--design an array for the building spawn manager
-
 -create new plane sprite
+
+-add functionality to options in option menu/add more options
 
 ## Planned
 
@@ -19,10 +19,8 @@ https://youtu.be/uFmrWUDnUog
 
 -add SFX, VFX, and BGM
 
--add functionality to options in option menu/add more options
-
 -create a unique UI style
 
 -add mobile support
 
--etc
+-create more sprites for the environment
